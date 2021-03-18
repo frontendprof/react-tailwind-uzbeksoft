@@ -22,6 +22,7 @@
 2. Import Hero component
 3. Import ChooseYourMs component
 4. Import Section2 component
+5. Import GamePass component
 
 ### Header component
 
@@ -45,3 +46,8 @@
 
 1. Loading section2 data
 2. Rendering images and title,desc,link with flex and styling them
+
+### GamePass component
+
+1. Loading appropriate image
+2. Different texts and button rendering with style of tailwind

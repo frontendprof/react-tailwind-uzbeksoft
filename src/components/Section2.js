@@ -11,7 +11,7 @@ const Section2 = () => {
                     <article key={id} className="p-8">
                         <div>
                             <img src={image} alt="card-image"/>
-                            <h2 className="font-semibold text-xl mt-2 mb-1">{title}</h2>
+                            <h3 className="font-semibold text-xl mt-2 mb-1">{title}</h3>
                             <p>{desc}</p>
                             <button className="cursor-pointer text-red-600 font-semibold">{link}</button>
                         </div>
