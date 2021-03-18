@@ -2,6 +2,7 @@ import React from "react";
 import ChooseYourMs from "./components/ChooseYourMs";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Section2 from "./components/Section2";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <ChooseYourMs />
+      <Section2 />
     </div>
   );
 }

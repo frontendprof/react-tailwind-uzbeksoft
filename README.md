@@ -20,6 +20,8 @@
 
 1. Import Header component
 2. Import Hero component
+3. Import ChooseYourMs component
+4. Import Section2 component
 
 ### Header component
 
@@ -38,3 +40,8 @@
 
 1. Loading section1 data
 2. Rendering images and texts with flex and styling them
+
+### Section2 component
+
+1. Loading section2 data
+2. Rendering images and title,desc,link with flex and styling them
