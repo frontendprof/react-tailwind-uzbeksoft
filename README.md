@@ -13,3 +13,22 @@
 
 1. App component
 2. Header component
+3. Hero component
+
+### App component
+
+1. Import Header component
+2. Import Hero component
+
+### Header component
+
+1. Importing Bars, Search,S hopping cart, User icons from react-icons
+2. Importing logo of company
+3. Arranging them with flex and styling them
+
+### Hero component
+
+1. Importing image
+2. Info about sales and product
+3. Button icon
+4. Styling all elements and aligning them
