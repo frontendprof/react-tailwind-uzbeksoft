@@ -26,6 +26,8 @@
 6. Import Section3 component
 7. Import MSResponse component
 8. Import ThisHoliday component
+9. Import Social component
+10. Import Footer component
 
 ### Header component
 
@@ -64,3 +66,14 @@
 
 1. Loading appropriate image
 2. Different texts and button rendering with style of tailwind
+
+### Social component
+
+1. Importing facebook,twitter,linkeding social icons from react-icons
+2. Different texts and button rendering with style of tailwind
+
+### Footer component
+
+1. Loading footer data
+2. Different title and hrefs rendering with style of tailwind
+3. Extra row for globe icon and language property and trademark and some styling
