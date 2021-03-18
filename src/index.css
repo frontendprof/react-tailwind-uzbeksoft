@@ -16,3 +16,78 @@ body {
 ul,li{
   list-style-type: none;
 }
+
+@media (min-width:640px){
+  .hero{
+    position: relative;
+    background: url("./images/hero_1600.png") no-repeat center/cover;
+    height: 500px;
+  }
+  
+  .hero-img{
+    display: none;
+  }
+
+  .hero .overlay{
+    position: absolute;
+    top:40%;
+    transform: translateY(-40%);
+  }
+
+  .hero .overlay p.text{
+    width: 420px;
+  }
+
+  .gamepass-hero{
+    background: url("./images/game_pass_1600.png") no-repeat center/cover;    
+  }
+
+  .this-holiday{
+    background: url("./images/this_holiday_1600.png") no-repeat center/cover;    
+  }
+}
+
+@media (min-width:768px){
+  .header .menu-btn,
+  .header .cart{
+    display: none;
+  }
+
+  .header .logo{
+    display: flex;
+  }
+
+  .header .logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .logo ul li{
+    margin:0 10px;
+    font-size: 14px;
+  }
+
+  .header .sign-in ul{
+    display: flex;
+  }
+
+  .header .sign-in ul li{
+    margin:0 10px;
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width:900px){
+  .hero .overlay p.text{
+    width: 520px;
+  }
+}
+
+@media (max-width:768px){
+  .header .logo ul,
+  .header .sign-in{
+    display: none;
+  }
+}

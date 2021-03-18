@@ -4,7 +4,7 @@ import {FaFacebook,FaTwitter,FaLinkedin} from "react-icons/fa";
 
 const Social = () => {
     return (
-        <div className="flex items-center py-5 px-8">
+        <div className="flex items-center py-5 px-8 xl:mx-20">
             <div className="mr-5">
                 <h4>Follow Microsoft</h4>
             </div>
