@@ -14,6 +14,7 @@
 1. App component
 2. Header component
 3. Hero component
+4. ChooseYourMs component
 
 ### App component
 
@@ -32,3 +33,8 @@
 2. Info about sales and product
 3. Button icon
 4. Styling all elements and aligning them
+
+### ChooseYourMs component
+
+1. Loading section1 data
+2. Rendering images and texts with flex and styling them
